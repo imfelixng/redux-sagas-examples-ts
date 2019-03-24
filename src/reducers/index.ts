@@ -1,7 +1,7 @@
 import { combineReducers} from 'redux';
 import { myNumberCollectionReducer, MyNumberCollectionState } from './my-number.reducer';
 
-export interface State {
+export type State = {
   myNumberCollectionState : MyNumberCollectionState;
 };
 
