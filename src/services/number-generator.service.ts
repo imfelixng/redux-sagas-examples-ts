@@ -5,7 +5,7 @@ export const generateNewNumber = () : Promise<number> => {
     setTimeout(() => {
       initialNumber += 5;
       resolve(initialNumber)
-    }, 500)
+    }, 3000)
   });
 
   return promise;

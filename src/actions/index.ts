@@ -9,3 +9,8 @@ export const numberRequestCompletedAction = (numberGenerated : number) : BaseAct
   type: actionIds.GET_NUMBER_REQUEST_COMPLETED,
   payload: numberGenerated,
  });
+
+ export const cancelOnGoingNumberRequestAction : () => BaseAction = () => ({
+  type: actionIds.CANCEL_ONGOING_NUMBER_REQUEST,
+  payload: null,
+ });
